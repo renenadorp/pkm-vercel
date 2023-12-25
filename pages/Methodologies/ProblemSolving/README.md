@@ -7,8 +7,10 @@
 
 
 # Methodologies
-[Design Thinking](pages/Methodologies/ProblemSolving/DesignThinking.md)
-[SWOT Analytsis](pages/Methodologies/ProblemSolving/SWOTAnalysis.md)
+- [Design Thinking](./DesignThinking.md)
+- [SWOT Analytsis](./SWOTAnalysis.md)
+- [Issue Trees](./IssueTrees.md)
+- [Hypothesis Pyramids](./HypothesisPyramids.md)
 
 
 # 3 Problem Solving Strategies

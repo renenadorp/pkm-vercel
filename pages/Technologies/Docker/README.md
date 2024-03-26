@@ -78,7 +78,8 @@ Install Docker
 | docker container top nginx                                                                                        |                       |
 | docker container top webhost                                                                                      |                       |
 | docker image ls                                                                                                   |                       |
-| docker info                                                                                                       |                       |
+| docker info
+| docker inspect -f '{{ .Config.Env}} {{ .Config.Entrypoint}} {{ .Config.Cmd}} {{ .VolumesFrom}} {{.Volumes}}  {{ .HostConfig.links}}' container_id | Obtain info from container, like startup command|
 | docker network --help                                                                                             |                       |
 | docker network connect                                                                                            |                       |
 | docker network create --help                                                                                      |                       |
@@ -97,3 +98,6 @@ Install Docker
 | docker stop mongo                                                                                                 |                       |
 | docker top mongo                                                                                                  |                       |
 | docker version                                                                                                    |                       |
+
+
+

@@ -1,3 +1,6 @@
+
+![SPIN](./SPIN.png)
+
 # SPIN Methodiek
 Consultative selling gesprek doe je door:
 - Manier van verkopen die NIET pushy of “verkoperig” is 

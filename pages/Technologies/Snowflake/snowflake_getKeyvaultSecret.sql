@@ -53,9 +53,9 @@ def get_kv_secret():
     client_secret=secret_val.password
   
     credential = ClientSecretCredential(  
-        tenant_id  = '2a916b80-031c-46f9-8f14-884c576496ca', #replace with actual value  
-        client_id  = '5109e839-8fa5-451c-95c1-96aa7a323ae1', #replace with actual value 
-        client_secret='~52qYB8tD.~961Z~jsGtDvWUMt.6s8Kp5I'   #client_secret
+        tenant_id  = '<id>', #replace with actual value  
+        client_id  = '<id>', #replace with actual value 
+        client_secret='<secret>'   #client_secret
      )
     try:
       client = SecretClient(vault_url="https://coapt-dev.vault.azure.net/",  credential=credential) 
